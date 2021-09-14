@@ -429,8 +429,6 @@ struct cff_subset_plan {
       subset_enc_format = 0;
     else
       subset_enc_format = 1;
-
-    (void)supp_size;
   }
 
   void plan_subset_charset (const OT::cff1::accelerator_subset_t &acc, hb_subset_plan_t *plan)
